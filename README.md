@@ -17,7 +17,8 @@ The final result provides 3 maps:
 
 ## What we did
 
-The database we used for our analysis contains updated information of victims in the investigation files of Mexico City Fiscalía General de Justicia (FGJ) from January 2019 onwards and from the 2020 census conducted by INEGI.
+The database we used for our analysis contains updated information of victims in the [investigation files of Mexico City Fiscalía General de Justicia (FGJ)](https://datos.cdmx.gob.mx/dataset/victimas-en-carpetas-de-investigacion-fgj) from January 2019 onwards and from the 2020 census conducted by INEGI.
+
 
 The information had a cleaning process where we considered only crimes committed on public roads where the victims were women.
 
