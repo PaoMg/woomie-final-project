@@ -15,7 +15,16 @@ The final result provides 3 maps:
 - The second one indicates on a 5-color scale the severity of crimes committed on public roads.
 - The third one shows on a 3-color scale the time of the day when the crimes were committed on public streets (morning: 05:00 to 12:00, afternoon: 13:00 - 20:00, night: 21:00 - 04:00) 
 
-Translated with www.DeepL.com/Translator (free version)
+## What we did
+
+The database we used for our analysis contains updated information of victims in the investigation files of Mexico City Fiscalía General de Justicia (FGJ) from January 2019 onwards and from the 2020 census conducted by INEGI.
+
+The information had a cleaning process where we considered only crimes committed on public roads where the victims were women.
+
+For the route's calculation we used the direction API from openroutservice.org. This API avoids nodes delimited by longitude and latitude. Also, it helped us to draw polygons with a diameter in meters according to our requirement so that the traced route did not pass near those polygons.
+
+The way to capture information is by a google sheets that connects directly to our colab.
+
 
 ## Getting Started
 
