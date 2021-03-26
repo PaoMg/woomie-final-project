@@ -17,12 +17,12 @@ The final result provides 3 maps:
 
 ## What we did
 
-The database we used for our analysis contains updated information of victims in the [investigation files of Mexico City Fiscalía General de Justicia (FGJ)](https://datos.cdmx.gob.mx/dataset/victimas-en-carpetas-de-investigacion-fgj) from January 2019 onwards and from the 2020 census conducted by INEGI.
+The database we used for our analysis contains updated information of victims in the [investigation files of Mexico City Fiscalía General de Justicia (FGJ)](https://datos.cdmx.gob.mx/dataset/victimas-en-carpetas-de-investigacion-fgj) from January 2019 onwards and from the [2020 census conducted by INEGI.](https://censo2020.mx)
 
 
 The information had a cleaning process where we considered only crimes committed on public roads where the victims were women.
 
-For the route's calculation we used the direction API from openroutservice.org. This API avoids nodes delimited by longitude and latitude. Also, it helped us to draw polygons with a diameter in meters according to our requirement so that the traced route did not pass near those polygons.
+For the route's calculation we used the direction API from [openroutservice.org.](https://openrouteservice.org/example-avoid-obstacles-while-routing/) This API avoids nodes delimited by longitude and latitude. Also, it helped us to draw polygons with a diameter in meters according to our requirement so that the traced route did not pass near those polygons.
 
 The way to capture information is by a google sheets that connects directly to our colab.
 
