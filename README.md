@@ -1,6 +1,6 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
-# Lab | Introduction to SciPy
+# Woomie | Final project Data analytics bootcamp - Mexico City
 
 ## Introduction
 
