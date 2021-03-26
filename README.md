@@ -2,6 +2,11 @@
 
 # Woomie | Final project Data analytics bootcamp - Mexico City
 
+# Team members:
+- [Paola Franco](https://github.com/paofrancomonge) 
+- [Patricia Villa](https://github.com/patocuak08)
+- [Paola Malherbe](https://github.com/PaoMg)
+
 ## Introduction
 
 This repository presents the final project of Ironhack Mexico's Data analytics bootcamp.
@@ -31,3 +36,9 @@ The way to capture information is by a [google sheets](https://docs.google.com/s
 
 - 5-color scale map with the severity of crimes committed on public roads (painting only one route)
 - 3-color scale map with the time of the day when the crimes were committed on public streets (morning: 05:00 to 12:00, afternoon: 13:00 - 20:00, night: 21:00 - 04:00) and painting both routes with time and distance (km)
+
+## Website
+- https://woomie.squarespace.com
+
+
+
