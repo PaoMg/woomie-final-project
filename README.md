@@ -29,6 +29,8 @@ The information had a cleaning process where we considered only crimes committed
 
 For the route's calculation we used the direction API from [openroutservice.org.](https://openrouteservice.org/example-avoid-obstacles-while-routing/) This API avoids nodes delimited by longitude and latitude. Also, it helped us to draw polygons with a diameter in meters according to our requirement so that the traced route did not pass near those polygons.
 
+For this API it is necessary to create an API key within the platform
+
 The way to capture information is by a [google sheets](https://docs.google.com/spreadsheets/d/17bfRz3X-qvqHr74QaY4aAYxsaUlFrF1-YiF7r2swFxI/edit?usp=sharing) that connects directly to our colab.
 
 
